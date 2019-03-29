@@ -1,0 +1,32 @@
+section{
+    font-size: 32px;
+}
+
+section:first-child{
+    box-sizing: content-box;
+    background: red;
+    color: orange;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 48px;
+    padding: 25px;
+    border: 15px solid blue;
+}
+
+section:nth-child(2){
+    box-sizing: border-box;
+    background: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 35px;
+    padding: 25px;
+    border: 15px solid red;
+    transition: all 0.5s ease-in-out;
+}
+
+section:nth-child(2):hover{
+    background: red;
+    border-color: blue;
+}
