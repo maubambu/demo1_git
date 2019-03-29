@@ -30,3 +30,10 @@ section:nth-child(2):hover{
     background: red;
     border-color: blue;
 }
+
+header{
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
