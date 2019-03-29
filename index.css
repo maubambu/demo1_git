@@ -1,15 +1,15 @@
 section{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 section:first-child{
     box-sizing: content-box;
     background: red;
     color: orange;
-    width: 200px;
-    height: 200px;
-    margin-top: 40px;
-    margin-bottom: 48px;
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     padding: 25px;
     border: 15px solid blue;
 }
@@ -18,8 +18,8 @@ section:nth-child(2){
     box-sizing: border-box;
     background: blue;
     color: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-bottom: 35px;
     padding: 25px;
     border: 15px solid red;
